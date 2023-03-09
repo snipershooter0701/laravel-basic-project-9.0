@@ -66,12 +66,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 php version >=8.1
 
 ## install
+
+php composer.phar dump-autoload
+
 xampp install
+
 composer install
+
 composer update(create Vendor folder)
+
 php artisan key:generate
+
 php artisan migrate
+
 php artisan migrate --seed
+
 php artisan serve
 
 
